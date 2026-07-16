@@ -154,7 +154,6 @@ body[data-view="game"] #screen { min-height: 0; overflow: hidden; }
 .sentence-kicker, .guess-label { text-transform: uppercase; letter-spacing: .14em; font-size: .66rem; font-weight: 700; color: var(--muted); }
 .sentence-card { position: relative; isolation: isolate; width: min(720px, 100%); min-height: 120px; max-height: calc(100% - 30px); display: grid; place-items: center; padding: clamp(24px,4vh,42px) 56px; border: 1px solid var(--line); border-radius: 25px 25px 8px 25px; background: var(--card); box-shadow: var(--shadow); backdrop-filter: blur(18px); overflow-y: auto; overscroll-behavior: contain; }
 .sentence-card p { position: relative; z-index: 1; margin: 0; font: 600 clamp(1.35rem, 3vw, 2.05rem)/1.32 'Iowan Old Style', 'Palatino Linotype', Georgia, serif; letter-spacing: -.025em; text-align: center; }
-.quote-mark { position: absolute; left: 22px; top: 10px; color: var(--accent); opacity: .35; font: 600 4.4rem/1 'Iowan Old Style', 'Palatino Linotype', Georgia, serif; }
 .message-tail { position: absolute; width: 20px; height: 20px; right: -1px; bottom: -13px; background: var(--card); clip-path: polygon(0 0,100% 0,100% 100%); border-right: 1px solid var(--line); }
 .guess-area { border-top: 1px solid var(--line); padding-top: clamp(8px,1.4vh,15px); }
 .guess-label { text-align: center; margin: 0 0 9px; }

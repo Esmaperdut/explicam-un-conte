@@ -176,7 +176,6 @@
         <div class="sentence-stage">
           <p class="sentence-kicker">Qui ho ha escrit?</p>
           <article class="sentence-card" id="sentence-card">
-            <span class="quote-mark" aria-hidden="true">“</span>
             <p>${escapeHtml(state.current.text)}</p>
             <span class="message-tail" aria-hidden="true"></span>
           </article>
